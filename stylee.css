@@ -1,0 +1,176 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Roboto";
+  display: flex;
+  margin-top:10px;
+  justify-content: center;
+  height:100vh;
+  background-image: url("bg1.jpg");
+}
+
+h1 {
+  padding:16px;
+  font-size:22px;
+  color:black;
+  text-align: center;
+}
+
+/* Form */
+
+.main-form {
+  background:#59a5b8;
+  padding:32px 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom:28px;
+}
+
+.gt-input {
+  width:400px;
+  height:48px;
+  padding:0 20px;
+  font-size:20px;
+  border:0;
+}
+
+.gt-text {
+  padding:10px 20px;
+  height:100px;
+  width:100%;
+  font-family:"Roboto";
+  font-size:20;
+}
+
+.gt-input:focus {
+  outline:none;
+}
+
+label {
+  position: absolute;
+  font-size:18px;
+  color:#aaa;
+  transition: all .4s;
+  top:24px;
+  transform:translateY(-50%);
+  margin-left:24px;
+  cursor:text;
+  z-index: 1;
+}
+
+.gt-button {
+  width:100%;
+  height:60px;
+  font-size:20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border:0;
+  color:white;
+  background:#00485a;
+  transition:.4s;
+  cursor: pointer;
+}
+
+.gt-button:hover {
+  background:#01708b;
+}
+
+.form-status {
+  padding:8px;
+  text-align: center;
+  color:white;
+  margin-top:8px;
+  margin-bottom:-24px;
+}
+
+.move-up {
+  margin-top:-32px;
+  margin-left:0px;
+  font-size:14px;
+  background:#ff0000;
+  border-radius:8px 0;
+  color:white;
+  padding:4px 8px;
+  min-width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main__btn {
+  font-size: 1.8rem;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  padding: 20px 60px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 2rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+
+.main__btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main__btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff1ead;
+  transition: all 0.35s;
+  border-radius: 4px;
+}
+
+.main__btn:hover {
+  color: #fff;
+}
+
+.main__btn:hover:after {
+  width: 100%;
+}
+
+.main__img--container {
+  text-align: center;
+}
+
+.main__img--card {
+  margin: 10px;
+  height: 500px;
+  width: 500px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+ /*background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);*/
+}
+
+
+
+
